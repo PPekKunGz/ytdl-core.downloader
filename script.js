@@ -7,5 +7,7 @@ convertBtn.addEventListener("click", function () {
 });
 
 function sendURL(URL) {
-  window.location.href = `https://server.ppekkungz.repl.co/download?URL=${URL}`;
+  window.location.href = `https://server.ppekkungz-ytdl-core.repl.co/download?URL=${URL}`;
+  // server ที่สองถ้าจะใช้เปิดใช้ได้เลย
+  // window.location.href = `http://server.ppekkungz.repli.co/download?URL=${URL}`;
 }
